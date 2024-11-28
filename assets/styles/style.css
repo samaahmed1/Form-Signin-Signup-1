@@ -11,3 +11,28 @@
   --silver: #b5b5b5;
   --alice-blue: #f0efff;
 }
+body{
+  font-family: "Poppins", sans-serif;
+}
+a{
+  text-decoration: none;
+}
+.container {
+  padding: 0 15px;
+  margin: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
