@@ -49,7 +49,7 @@ header .logo{
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  height: calc(100vh - 200px);
+  height: calc(100vh - 100px);
 }
 @media(max-width:992px){
   .content .container{
@@ -97,16 +97,13 @@ header .logo{
   border-radius: 8px;
   min-width:330px;
   padding: 20px;
+  margin-bottom: 20px;
 }
 .content .container .form form input::placeholder{
   color: var(--maximum-blue-purple);
 }
-.content .container .form form .name-or-email{
-  margin-bottom: 30px;
-}
 .content .container .form form a{
  display: block;
- margin-top: 10px;
  font-weight: 400;
  font-size: 13px;
  color: var(--silver);
