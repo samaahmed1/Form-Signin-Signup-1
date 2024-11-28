@@ -1,0 +1,13 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --black: black;
+  --white: white;
+  --maximum-blue-purple: #a7a3ff;
+  --ocean-blue: #4d47c3;
+  --silver: #b5b5b5;
+  --alice-blue: #f0efff;
+}
