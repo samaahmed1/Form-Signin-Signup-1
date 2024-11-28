@@ -54,6 +54,7 @@ header .logo{
 @media(max-width:992px){
   .content .container{
     justify-content:center;
+    gap: 30px;
   }
 }
 .content .container .information h1{
@@ -76,6 +77,67 @@ header .logo{
 .content .container .information p a{
   font-weight: 600;
   color: var(--ocean-blue);
+}
+@media(max-width:992px){
+  .information{
+   width: 100%;
+   text-align: center;
+  }
+}
+.content .container .form h2{
+  font-weight: 500;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.content .container .form form input{
+  display: block;
+  border: none;
+  outline: none;
+  background-color: var(--alice-blue);
+  border-radius: 8px;
+  min-width:330px;
+  padding: 20px;
+}
+.content .container .form form input::placeholder{
+  color: var(--maximum-blue-purple);
+}
+.content .container .form form .name-or-email{
+  margin-bottom: 30px;
+}
+.content .container .form form a{
+ display: block;
+ margin-top: 10px;
+ font-weight: 400;
+ font-size: 13px;
+ color: var(--silver);
+ text-align: right;
+}
+.content .container .form form .login{
+ background-color: var(--ocean-blue);
+ color: var(--white);
+ margin-top: 30px;
+ transition: background-color .3s ease-in-out;
+}
+.content .container .form form .login:hover{
+  background-color: #3f3aa0;
+}
+.content .container .form p{
+  display: block;
+  margin-top: 30px;
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--silver);
+  text-align: center;
+}
+.content .container .form .continue-with {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ gap: 20px;
+ margin-top: 30px;
+}
+.content .container .form .continue-with img{
+ width: 40px;
 }
 
 
